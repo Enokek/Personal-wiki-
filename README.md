@@ -1,4 +1,4 @@
-# wiki
+# Wiki
 This is a personal wiki
 
 It includes written important information
