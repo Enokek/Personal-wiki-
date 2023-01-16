@@ -24,33 +24,135 @@ I frequently use git along with the command prompt to create projects, open fold
 
 ## Important Local git commands:
 
-1. Git commit is used to stage your changes and you often write a description for the commit so others and yourself included know what the purpose of the change is.
+```
+$ git commit
+```
 
-2. Git init is used to create a new git repository that is empty.
-3. Git log gives the user a display list of a repositories
-4. Git add stages changes, so that git understands which changes you want to include in your next commit.
-5. Git config is used to define what the name of the author of a repository is. It can also be used to configure what email or alias that the user wants to be displayed.
-6. Git merge is used to merge branch to the main branch.
-7. Git status gives conditions for which files are staged or unstaged.
-8. Git version displays which version of git that is running.
+Git commit is used to stage your changes and you often write a description for the commit so others and yourself included know what the purpose of the change is.
 
-9. Git checkout is commonly used to detach, switch, from one branch to another.
+[Official doumentation](https://git-scm.com/docs/git-commit)
 
-10. Git diff shows you the changes that is unstaged between index and working directory.
+```
+$ git init
+```
 
-11. Git branch
+Git init is used to create a new git repository that is empty.
+
+[Official doumentation](https://git-scm.com/docs/git-init)
+
+```
+$ git log
+```
+
+Git log gives the user a display list of a repositories
+
+[Official doumentation](https://git-scm.com/docs/git-log)
+
+```
+$ git add
+```
+
+Git add stages changes, so that git understands which changes you want to include in your next commit.
+
+[Official doumentation](https://git-scm.com/docs/git-add)
+
+```
+$ git config
+```
+
+Git config is used to define what the name of the author of a repository is. It can also be used to configure what email or alias that the user wants to be displayed.
+
+[Official doumentation](https://git-scm.com/docs/git-config)
+
+```
+$ git merge
+```
+
+Git merge is used to merge branch to the main branch.
+
+[Official doumentation](https://git-scm.com/docs/git-merge)
+
+```
+$ git status
+```
+
+Git status gives conditions for which files are staged or unstaged.
+
+[Official doumentation](https://git-scm.com/docs/git-status)
+
+```
+$ git version
+```
+
+Git version displays which version of git that is running.
+
+[Official doumentation](https://git-scm.com/docs/git-version)
+
+```
+$ git checkout
+```
+
+Git checkout is commonly used to detach, switch, from one branch to another.
+
+[Official doumentation](https://git-scm.com/docs/git-checkout)
+
+```
+$ git diff
+```
+
+Git diff shows you the changes that is unstaged between index and working directory.
+
+[Official doumentation](https://git-scm.com/docs/git-diff)
+
+```
+$ git branch
+```
+
+Git branch is used to list, create or delete different branches.
+
+[Official doumentation](https://git-scm.com/docs/git-branch)
 
 ## Remote Git Commands
 
-1. Git pull is used to "pull" or get the new changes from a project folder, pulling the information.
+```
+$ git pull
+```
 
-2. Git push, similiar to pull but "pushes" new information, which means the changes you've done gets added to the project folder.
+Git pull is used to "pull" or get the new changes from a project folder, pulling the information.
 
-3. Git clone is used to clone a project folder
+[Official doumentation](https://git-scm.com/docs/git-pull)
 
-4. Git remote add name --url is used to connect to a certain repository
+```
+$ git push
+```
 
-5. Git fetch
+Git push, similiar to pull but "pushes" new information, which means the changes you've done gets added to the project folder.
+
+[Official doumentation](https://git-scm.com/docs/git-push)
+
+```
+$ git clone https://github.com/libgit2/libgit2
+```
+
+Git clone is used to clone a project folder
+
+[Official doumentation](https://git-scm.com/docs/git-clone)
+
+```
+$ git remote add "branch" https://github.com/<user>/<YourRepo>
+```
+
+Git remote is used to connect to a certain repository.
+
+[Official doumentation](https://git-scm.com/docs/git-remote)
+
+```
+$ git fetch
+```
+
+Git fetch is used to "fetch" or get a certain "branch" from a repository
+
+[Official doumentation](https://git-scm.com/docs/git-fetch)
 
 # Git diagram
 
